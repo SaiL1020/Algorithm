@@ -62,5 +62,7 @@ public class ParenthesesDiv2Medium {
 		// To avoid null elements
 		//   ret.stream().mapToInt(i -> i != null).toArray()
 		return ret.stream().mapToInt(i -> i).toArray();
+		
+		// Source: http://stackoverflow.com/questions/718554/
 	}
 }
