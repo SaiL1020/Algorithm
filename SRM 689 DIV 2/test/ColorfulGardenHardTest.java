@@ -7,9 +7,9 @@ public class ColorfulGardenHardTest {
 	public void test0() {
 		String garden = "abcdefghijklmno";
 		String forbid = "ppppppppppppppp";
-		assertEquals(0, new ColorfulGardenHard().count(garden, forbid));
+		assertEquals(674358851, new ColorfulGardenHard().count(garden, forbid));
 	}
-	/*
+
 	@Test(timeout=2000)
 	public void test1() {
 		String garden = "aabbcc";
@@ -37,5 +37,5 @@ public class ColorfulGardenHardTest {
 		String forbid = "b";
 		assertEquals(1, new ColorfulGardenHard().count(garden, forbid));
 	}
-	*/
+
 }
