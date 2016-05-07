@@ -1,13 +1,10 @@
 /**
  * Created by sail on 3/29/16.
  */
-public class LeetCode41 {
-    public static void main(String[] args) {
-        int[] nums = {0,2};
-        System.out.println(firstMissingPositive(nums));
-    }
 
-    public static int firstMissingPositive(int[] nums) {
+// First Missing Positive Number
+public class Leet41 {
+    public int Leet41 (int[] nums) {
         int length = nums.length;
         for (int i = 0; i < length; i++) {
             int cur = nums[i];

@@ -13,10 +13,10 @@ public class PojTest {
     // http://one-line-it.blogspot.com/2013/05/java-testing-with-stdin-and-stdout.html
     public void test0() {
         String input = "3 5\n" +
-                "7 23 -5 -24 16\n" +
-                "5 21 -4 10 23\n" +
-                "-21 5 -4 -20 20";
-        String expected = "53";
+                "-7 -23 -5 -24 -16\n" +
+                "-5 -21 -4 -10 -23\n" +
+                "-21 -5 -4 -20 -20";
+        String expected = "-31";
 
         // set stdin
         System.setIn(new ByteArrayInputStream(input.getBytes()));
