@@ -5,7 +5,6 @@
 public class Leet5 {
     public String longestPalindrome(String s) {
         char[] charArray = s.toCharArray();
-        System.out.println(charArray);
         int start = 0, end = 1, max = 1, shift = 0;
         for (int i = 0; i < charArray.length; i++) {
             shift = 1;
@@ -19,7 +18,6 @@ public class Leet5 {
                 start = i - shift + 1;
                 end = i + shift;
             }
-            System.out.println(i + " " + start + " " + end + " " + shift);
         }
         for (int i = 0; i < charArray.length - 1; i++) {
             shift = 0;
@@ -31,7 +29,6 @@ public class Leet5 {
                 start = i - shift + 1;
                 end = i + 1 + shift;
             }
-            System.out.println(i + " " + start + " " + end);
         }
         return s.substring(start, end);
     }
