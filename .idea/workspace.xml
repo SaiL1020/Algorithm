@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fce93158-b9f7-4868-8a6c-891a04882b56" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leetcode/src/Leet388.java" afterPath="$PROJECT_DIR$/Leetcode/src/Leet388.java" />
     </list>
     <ignored path="Algorithm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,8 +102,8 @@
       <file leaf-file-name="Leet388.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Leetcode/src/Leet388.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6263048">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.908142">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1013,7 +1012,7 @@
       <workItem from="1472357525078" duration="3617000" />
       <workItem from="1472369922852" duration="1707000" />
       <workItem from="1472608491454" duration="5840000" />
-      <workItem from="1472694842747" duration="6194000" />
+      <workItem from="1472694842747" duration="6242000" />
     </task>
     <task id="LOCAL-00001" summary="Try">
       <created>1461812992749</created>
@@ -1147,7 +1146,13 @@
       <option name="project" value="LOCAL" />
       <updated>1472702732118</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="8.31 :(">
+      <created>1472702847302</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1472702847302</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1183,7 +1188,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128400000" />
+    <option name="totallyTimeSpent" value="128448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1678,8 +1683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode/src/Leet388.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6263048">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.908142">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
