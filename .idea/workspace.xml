@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce93158-b9f7-4868-8a6c-891a04882b56" name="Default" comment="8.30 :)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode/src/Leet27.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode/src/Leet388.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode/test/Leet388Test.java" />
+    <list default="true" id="fce93158-b9f7-4868-8a6c-891a04882b56" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Leetcode/src/Leet388.java" afterPath="$PROJECT_DIR$/Leetcode/src/Leet388.java" />
     </list>
     <ignored path="Algorithm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,8 +103,8 @@
       <file leaf-file-name="Leet388.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Leetcode/src/Leet388.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.90625">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/Leetcode/test/Leet388Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="61" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="61" />
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1015,7 +1013,7 @@
       <workItem from="1472357525078" duration="3617000" />
       <workItem from="1472369922852" duration="1707000" />
       <workItem from="1472608491454" duration="5840000" />
-      <workItem from="1472694842747" duration="5669000" />
+      <workItem from="1472694842747" duration="6081000" />
     </task>
     <task id="LOCAL-00001" summary="Try">
       <created>1461812992749</created>
@@ -1137,19 +1135,16 @@
       <option name="project" value="LOCAL" />
       <updated>1472613746198</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="8.31 :(">
+      <created>1472702327879</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1472702327879</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Leet388Test - 2016.08.31 at 23h 49m 28s.xml">
-      <configuration name="Leet388Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leet388Test - 2016.08.31 at 23h 50m 35s.xml">
-      <configuration name="Leet388Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Leet388Test - 2016.08.31 at 23h 51m 13s.xml">
-      <configuration name="Leet388Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Leet388Test - 2016.08.31 at 23h 53m 21s.xml">
       <configuration name="Leet388Test" configurationId="JUnit" />
     </history-entry>
@@ -1171,9 +1166,18 @@
     <history-entry file="Leet388Test - 2016.08.31 at 23h 57m 40s.xml">
       <configuration name="Leet388Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Leet388Test - 2016.09.01 at 00h 00m 07s.xml">
+      <configuration name="Leet388Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Leet388Test - 2016.09.01 at 00h 02m 17s.xml">
+      <configuration name="Leet388Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Leet388Test - 2016.09.01 at 00h 03m 46s.xml">
+      <configuration name="Leet388Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127875000" />
+    <option name="totallyTimeSpent" value="128287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1235,7 +1239,8 @@
     <MESSAGE value="Leetcode 5 Longest Palindromic Substring" />
     <MESSAGE value="Leetcode 210 Course Schedule II" />
     <MESSAGE value="8.30 :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.30 :)" />
+    <MESSAGE value="8.31 :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.31 :(" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1658,7 +1663,7 @@
     <entry file="file://$PROJECT_DIR$/Leetcode/test/Leet388Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="61" />
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1667,8 +1672,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode/src/Leet388.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.90625">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
