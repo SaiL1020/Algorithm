@@ -8,17 +8,17 @@ import java.util.Stack;
  */
 public class Leet388 {
     public int lengthLongestPath(String input) {
-        System.out.println("======" + input);
+        //System.out.println("======" + input);
         int maxlen = 0;
         int[] pathlen = new int[1000];
         //input = input.replace("\n", " ");
-        System.out.println("------" + input);
+        //System.out.println("------" + input);
         for (String line: input.split("\\n")) {
-            System.out.println(line);
+            //System.out.println(line);
             String name = line.replace("\t", "");
-            System.out.println(name);
+            //System.out.println(name);
             int depth = (line.length() - name.length());
-            System.out.println(depth);
+            //System.out.println(depth);
             if (name.contains("."))
                 maxlen = Math.max(maxlen, pathlen[depth] + name.length());
             else
