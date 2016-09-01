@@ -59,4 +59,25 @@ public class Leet78 {
 //        }
 //        return res;
 //    }
+
+
+//    private void solve(List<List<Integer>> res,int[] nums,List<Integer> tmpList,int index){
+//        if(index==nums.length){
+//            res.add(new LinkedList(tmpList));
+//            return;
+//        }
+//        solve(res,nums,tmpList,index+1);      //divide and conquer, interesting!
+//        tmpList.add(nums[index]);
+//        solve(res,nums,tmpList,index+1);
+//        tmpList.remove(tmpList.size()-1);
+//    }
+//    public List<List<Integer>> subsets(int[] nums) {
+//        List<List<Integer>> res = new LinkedList<>();
+//        List<Integer> tmpList = new LinkedList<>();
+//
+//        Arrays.sort(nums);
+//        solve(res, nums, tmpList, 0);
+//
+//        return res;
+//    }
 }
