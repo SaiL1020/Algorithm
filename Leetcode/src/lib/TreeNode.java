@@ -26,10 +26,11 @@ public class TreeNode {
             if (list[i] != null)
                 current = new TreeNode((Integer) list[i]);
             else
-                continue;
+                current = null;
             queue[rear++] = current;
 
             if (rear == 1) continue;
+            if (queue[front] == null) continue;
             if (i % 2 == 1)
                 queue[front].left = current;
             else
