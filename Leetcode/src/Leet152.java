@@ -15,7 +15,8 @@ public class Leet152 {
     }
 
     public static void main(String[] args) {
-        int ans = new Leet152().maxProduct(new int[]{2,-5,-2,-4,3});
+        //int ans = new Leet152().maxProduct(new int[]{2,-5,-2,-4,3});
+        int ans = -2 / 10;
         System.out.println(ans);
     }
 }
