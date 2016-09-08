@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce93158-b9f7-4868-8a6c-891a04882b56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode/src/Leet13.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithm.iws" />
@@ -975,7 +974,7 @@
       <workItem from="1472780789481" duration="10041000" />
       <workItem from="1472832189711" duration="1982000" />
       <workItem from="1472870820753" duration="28141000" />
-      <workItem from="1473217084475" duration="2388000" />
+      <workItem from="1473217084475" duration="2404000" />
     </task>
     <task id="LOCAL-00001" summary="Try">
       <created>1461812992749</created>
@@ -1193,7 +1192,13 @@
       <option name="project" value="LOCAL" />
       <updated>1473218724408</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="9.7 777">
+      <created>1473305936773</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1473305936773</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1229,7 +1234,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181511000" />
+    <option name="totallyTimeSpent" value="181527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1272,7 +1277,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Change for test cases" />
     <MESSAGE value="SRM 688 DIV 2 500" />
     <MESSAGE value="POJ 1157 DP" />
     <MESSAGE value="Leetcode 104" />
@@ -1297,7 +1301,8 @@
     <MESSAGE value="9.4 Memories" />
     <MESSAGE value="9.5 Go-Kart" />
     <MESSAGE value="9.6 star" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.6 star" />
+    <MESSAGE value="9.7 777" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.7 777" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
