@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 /**
  * Created by sail on 4/30/16.
+ * valuesOfFlower In Vase
+ * DP
  */
 public class Poj1157 {
     public static void main(String[] args) {

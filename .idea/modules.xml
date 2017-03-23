@@ -4,14 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codeforces/Codeforces.iml" filepath="$PROJECT_DIR$/Codeforces/Codeforces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codejam/Codejam.iml" filepath="$PROJECT_DIR$/Codejam/Codejam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Company/Company.iml" filepath="$PROJECT_DIR$/Company/Company.iml" />
       <module fileurl="file://$PROJECT_DIR$/HDU/HDU.iml" filepath="$PROJECT_DIR$/HDU/HDU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode2/LeetCode2.iml" filepath="$PROJECT_DIR$/LeetCode2/LeetCode2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode/Leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/POJ/POJ.iml" filepath="$PROJECT_DIR$/POJ/POJ.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SRM 688 DIV 2/SRM 688 DIV 2.iml" filepath="$PROJECT_DIR$/SRM 688 DIV 2/SRM 688 DIV 2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SRM 689 DIV 2/SRM 689 DIV 2.iml" filepath="$PROJECT_DIR$/SRM 689 DIV 2/SRM 689 DIV 2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SRM 699 DIV 2/SRM 699 DIV 2.iml" filepath="$PROJECT_DIR$/SRM 699 DIV 2/SRM 699 DIV 2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SRM 700 DIV 2/SRM 700 DIV 2.iml" filepath="$PROJECT_DIR$/SRM 700 DIV 2/SRM 700 DIV 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Practice.iml" filepath="$PROJECT_DIR$/Practice/Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestMain/TestMain.iml" filepath="$PROJECT_DIR$/TestMain/TestMain.iml" />
     </modules>
   </component>
 </project>

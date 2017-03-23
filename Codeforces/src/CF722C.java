@@ -1,9 +1,10 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 /**
  * Created by sail on 10/1/16.
- * Code one more line :)
+ * CF722 C
  */
-import java.io.*;
-import java.util.*;
 public class CF722C {
     private boolean[] vis;
     private int n;

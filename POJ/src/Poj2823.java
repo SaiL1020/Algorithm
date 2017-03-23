@@ -1,9 +1,10 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.ArrayList;
 
 /**
  * Created by sail on 5/19/16.
+ * windows queue
  */
 public class Poj2823 { // TLE :D
     public int n, k;
@@ -45,7 +46,7 @@ public class Poj2823 { // TLE :D
         queue = new int[2][n];
         front = new int[2];
         rear = new int[2];
-        res = new ArrayList<Integer>();
+        res = new ArrayList<>();
     }
 
     public void solve(int pos, int type) {

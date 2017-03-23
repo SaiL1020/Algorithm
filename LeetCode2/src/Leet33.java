@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.concurrent.SynchronousQueue;
 
 /**
  * Created by sail on 9/21/16.

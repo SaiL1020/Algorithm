@@ -1,5 +1,5 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 /**
  * Created by sail on 8/22/16.
  * Code one more line :)
@@ -33,8 +33,8 @@ public class CR16B {
     }
     public static long calcSum(int[] x, long k) {
         long ret = 0;
-        for (int i = 0; i < x.length; i++) {
-            ret += Math.abs((long)x[i] - k);
+        for (int aX : x) {
+            ret += Math.abs((long) aX - k);
         }
         return ret;
     }
@@ -91,7 +91,6 @@ public class B {
 			try {
 				is = new FileInputStream(__DEBUG_FILE_NAME__);
 			} catch (FileNotFoundException e) {
-				// TODO 自動生成された catch ブロック
 				e.printStackTrace();
 			}
 			System.out.println("FILE_INPUT!");

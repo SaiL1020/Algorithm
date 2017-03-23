@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 /**
  * Created by sail on 8/21/16.
  * Code one more line :)

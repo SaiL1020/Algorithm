@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 /**
  * Created by sail on 8/22/16.
@@ -10,7 +10,7 @@ public class CR16A {
         String king = sc.nextLine();
         char c = king.charAt(0);
         char d = king.charAt(1);
-        int ans = 0;
+        int ans;
         if ((c == 'a' || c == 'h') && (d == '1' || d == '8'))
             ans = 3;
         else if (c == 'a' || c == 'h' || d == '1' || d == '8')

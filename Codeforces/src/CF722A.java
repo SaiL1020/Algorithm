@@ -1,8 +1,9 @@
+import java.util.Scanner;
+
 /**
  * Created by sail on 10/1/16.
  * Code one more line :)
  */
-import java.util.*;
 public class CF722A {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

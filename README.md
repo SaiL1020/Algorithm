@@ -1,2 +1,3 @@
-# Daily
-Coding on Topcoder, Codeforces, Leetcode.
+# Algorithm
+Coding for the problems in CF, HDU, POJ, & LeetCode
+
