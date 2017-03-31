@@ -1,14 +1,18 @@
+package Round407;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
- * Created by sail on 1/20/17.
- * Code one more line :)
+ * author:      SaiL1020
+ * time:        3/29/17 12:05 PM
+ * project:     Algorithm
  */
-public class CF758B {
+public class A407 {
     FastScanner in;
     PrintWriter out;
 
@@ -47,24 +51,31 @@ public class CF758B {
         in = new FastScanner();
         out = new PrintWriter(System.out);
 
-        int[] b = new int[4];
-        int[] p = new int[26];
-        char[] ch = in.nextToken().toCharArray();
+        int n = in.nextInt();
+        int k = in.nextInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) {
+            a[i] = in.nextInt();
+        }
+        Arrays.sort(a);
 
-        for (int i = 0; i < ch.length; i++) {
-            if (ch[i] == '!') {
-                b[i % 4]++;
-            } else {
-                p[ch[i] - 'A'] = i % 4;
+        long ans = 0;
+        for (int i = 0; i < n; i++) {
+            ans += a[i] / k / 2;
+            int rem = a[i] % (2 * k);
+            if (rem != 0) {
+                ans++;
+                if (i + 1 == n) continue;
+                if (rem <= k) {
+                    a[i + 1] -= k;
+                    if (a[i + 1] < 0) a[i + 1] = 0;
+                }
             }
         }
-        out.println(b[p['R' - 'A']] + " " +
-                    b[p['B' - 'A']] + " " +
-                    b[p['Y' - 'A']] + " " +
-                    b[p['G' - 'A']]);
+        out.println(ans);
         out.close();
     }
     public static void main(String[] args) {
-        new CF758B().run();
+        new A407().run();
     }
 }

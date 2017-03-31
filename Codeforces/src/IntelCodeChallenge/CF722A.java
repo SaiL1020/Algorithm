@@ -1,3 +1,5 @@
+package IntelCodeChallenge;
+
 import java.util.Scanner;
 
 /**

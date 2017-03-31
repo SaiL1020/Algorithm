@@ -1,3 +1,5 @@
+package Round392;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -6,9 +8,9 @@ import java.util.StringTokenizer;
 
 /**
  * Created by sail on 1/20/17.
- * CF758 A
+ * Code one more line :)
  */
-public class CF758A {
+public class CF758B {
     FastScanner in;
     PrintWriter out;
 
@@ -47,21 +49,24 @@ public class CF758A {
         in = new FastScanner();
         out = new PrintWriter(System.out);
 
-        int max = 0;
-        int n = in.nextInt();
-        int[] a = new int[n];
-        for (int i = 0; i < n; i++) {
-            a[i] = in.nextInt();
-            max = Math.max(max, a[i]);
+        int[] b = new int[4];
+        int[] p = new int[26];
+        char[] ch = in.nextToken().toCharArray();
+
+        for (int i = 0; i < ch.length; i++) {
+            if (ch[i] == '!') {
+                b[i % 4]++;
+            } else {
+                p[ch[i] - 'A'] = i % 4;
+            }
         }
-        int ans = 0;
-        for (int k : a) {
-            ans += max - k;
-        }
-        out.println(ans);
+        out.println(b[p['R' - 'A']] + " " +
+                    b[p['B' - 'A']] + " " +
+                    b[p['Y' - 'A']] + " " +
+                    b[p['G' - 'A']]);
         out.close();
     }
     public static void main(String[] args) {
-        new CF758A().run();
+        new CF758B().run();
     }
 }
