@@ -1,8 +1,10 @@
+package year2016.qr;
+
 import java.io.*;
 
 /**
  * Created by sail on 4/9/16.
- * //TODO Problem B. Revenge of the Pancakes
+ * count the occurrence of "-+" + "+-"
  */
 public class RevengePancakes {
     public static void main(String[] args) throws Exception{

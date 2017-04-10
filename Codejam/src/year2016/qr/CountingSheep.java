@@ -1,9 +1,12 @@
+package year2016.qr;
+
 import java.util.HashSet;
 import java.util.Scanner;
 
 /**
  * Created by sail on 4/8/16.
- * //TODO Problem A. Counting Sheep
+ * Think of the least power of 10 greater than N:
+ * The leftmost digit will occur at least every 10 steps.
  */
 public class CountingSheep {
     public static void main(String[] args) {
